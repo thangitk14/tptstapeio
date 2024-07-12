@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TPTStapeSDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'TPTStapeSDK to use with Stape.io service'
   s.description      = 'Awesome Stape.io SDK, use it for fun and profit! Support Objective C'
   s.homepage         = 'https://panel.thangvnnc.io.vn'
