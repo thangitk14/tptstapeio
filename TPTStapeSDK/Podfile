@@ -6,10 +6,10 @@ target 'StapeSampleApp' do
   pod 'FirebaseAnalytics'
 end
 
-target 'StapeSDK' do
+target 'TPTStapeSDK' do
   use_frameworks!
 
-  target 'StapeSDKTests' do
+  target 'TPTStapeSDKTests' do
     pod 'InstantMock'
     pod 'Nimble'
   end

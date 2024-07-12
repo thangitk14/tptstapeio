@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		15C713E82C4166240000B7F7 /* StapeSDKWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C713E72C4166240000B7F7 /* StapeSDKWrapper.swift */; };
-		78A12547DBC8836F70FC24B6 /* Pods_StapeSDK_StapeSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9746E6993105FEEC78435817 /* Pods_StapeSDK_StapeSDKTests.framework */; };
-		8220A501A1FDFC829EC3AC1C /* Pods_StapeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23653AB68CDDF463DFC32E30 /* Pods_StapeSDK.framework */; };
+		66AD008CDAEDE15FBB13745C /* Pods_TPTStapeSDK_TPTStapeSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5AEBB103349210EF446855 /* Pods_TPTStapeSDK_TPTStapeSDKTests.framework */; };
+		9340A4E5FCE04D13608C5DFD /* Pods_TPTStapeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC0FD572DAFD41677070A59 /* Pods_TPTStapeSDK.framework */; };
 		CDF78B3B490F8BA812295825 /* Pods_StapeSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1200A51B92D7015FE13130E /* Pods_StapeSampleApp.framework */; };
 		D94F1BDC2ADDE84200DB8180 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F1BDB2ADDE84200DB8180 /* APIClient.swift */; };
 		D98E67AE2ADED7A700A07D57 /* EventSendOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E67AD2ADED7A700A07D57 /* EventSendOperation.swift */; };
@@ -70,18 +70,22 @@
 
 /* Begin PBXFileReference section */
 		15C713E72C4166240000B7F7 /* StapeSDKWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StapeSDKWrapper.swift; sourceTree = "<group>"; };
-		23653AB68CDDF463DFC32E30 /* Pods_StapeSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StapeSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B1978522D944E89ADFE3DF /* Pods-StapeSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StapeSampleApp.release.xcconfig"; path = "Target Support Files/Pods-StapeSampleApp/Pods-StapeSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		2BC0FD572DAFD41677070A59 /* Pods_TPTStapeSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPTStapeSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		391D51F03365C34539640B41 /* Pods-StapeSDK-StapeSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StapeSDK-StapeSDKTests.release.xcconfig"; path = "Target Support Files/Pods-StapeSDK-StapeSDKTests/Pods-StapeSDK-StapeSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DE9068317B0B22626A12162 /* Pods-TPTStapeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPTStapeSDK.debug.xcconfig"; path = "Target Support Files/Pods-TPTStapeSDK/Pods-TPTStapeSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		69D352363D8049E8308F2C48 /* Pods-StapeSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StapeSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-StapeSDK_Tests/Pods-StapeSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E39C0AE546A746C2327146C /* Pods-TPTStapeSDK-TPTStapeSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPTStapeSDK-TPTStapeSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-TPTStapeSDK-TPTStapeSDKTests/Pods-TPTStapeSDK-TPTStapeSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		934D082530920B48CF03782D /* Pods-StapeSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StapeSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-StapeSDK_Tests/Pods-StapeSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9746E6993105FEEC78435817 /* Pods_StapeSDK_StapeSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StapeSDK_StapeSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5FDFF13F7AFF9367F5AE30 /* Pods-StapeSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StapeSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-StapeSampleApp/Pods-StapeSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9D15EB62C991318502DB4BC8 /* Pods-StapeSDK-StapeSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StapeSDK-StapeSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-StapeSDK-StapeSDKTests/Pods-StapeSDK-StapeSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9317D881F8171C3CFD01122 /* Pods-StapeSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StapeSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-StapeSDK_Example/Pods-StapeSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AAF5FF904F0FA6F97F1FF9D7 /* Pods_StapeSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StapeSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE69CAA562C6E819F3B400A6 /* Pods-TPTStapeSDK-TPTStapeSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPTStapeSDK-TPTStapeSDKTests.release.xcconfig"; path = "Target Support Files/Pods-TPTStapeSDK-TPTStapeSDKTests/Pods-TPTStapeSDK-TPTStapeSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		B1200A51B92D7015FE13130E /* Pods_StapeSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StapeSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26CA7ED3DE71D1E7685660C /* Pods-TPTStapeSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPTStapeSDK.release.xcconfig"; path = "Target Support Files/Pods-TPTStapeSDK/Pods-TPTStapeSDK.release.xcconfig"; sourceTree = "<group>"; };
 		B442E1F57118C723D5B08434 /* Pods-StapeSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StapeSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-StapeSDK_Example/Pods-StapeSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB5AEBB103349210EF446855 /* Pods_TPTStapeSDK_TPTStapeSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPTStapeSDK_TPTStapeSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94F1BDB2ADDE84200DB8180 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		D98E67AD2ADED7A700A07D57 /* EventSendOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSendOperation.swift; sourceTree = "<group>"; };
 		D98E67AF2ADED93600A07D57 /* EventQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventQueue.swift; sourceTree = "<group>"; };
@@ -118,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8220A501A1FDFC829EC3AC1C /* Pods_StapeSDK.framework in Frameworks */,
+				9340A4E5FCE04D13608C5DFD /* Pods_TPTStapeSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F7066B2ADC0C28006D7530 /* TPTStapeSDK.framework in Frameworks */,
-				78A12547DBC8836F70FC24B6 /* Pods_StapeSDK_StapeSDKTests.framework in Frameworks */,
+				66AD008CDAEDE15FBB13745C /* Pods_TPTStapeSDK_TPTStapeSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +160,10 @@
 				391D51F03365C34539640B41 /* Pods-StapeSDK-StapeSDKTests.release.xcconfig */,
 				9C5FDFF13F7AFF9367F5AE30 /* Pods-StapeSampleApp.debug.xcconfig */,
 				23B1978522D944E89ADFE3DF /* Pods-StapeSampleApp.release.xcconfig */,
+				5DE9068317B0B22626A12162 /* Pods-TPTStapeSDK.debug.xcconfig */,
+				B26CA7ED3DE71D1E7685660C /* Pods-TPTStapeSDK.release.xcconfig */,
+				7E39C0AE546A746C2327146C /* Pods-TPTStapeSDK-TPTStapeSDKTests.debug.xcconfig */,
+				AE69CAA562C6E819F3B400A6 /* Pods-TPTStapeSDK-TPTStapeSDKTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -190,9 +198,9 @@
 			children = (
 				AAF5FF904F0FA6F97F1FF9D7 /* Pods_StapeSDK_Example.framework */,
 				DED10FFB7E255E3FE081FE90 /* Pods_StapeSDK_Tests.framework */,
-				23653AB68CDDF463DFC32E30 /* Pods_StapeSDK.framework */,
-				9746E6993105FEEC78435817 /* Pods_StapeSDK_StapeSDKTests.framework */,
 				B1200A51B92D7015FE13130E /* Pods_StapeSampleApp.framework */,
+				2BC0FD572DAFD41677070A59 /* Pods_TPTStapeSDK.framework */,
+				BB5AEBB103349210EF446855 /* Pods_TPTStapeSDK_TPTStapeSDKTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -398,18 +406,28 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StapeSDK-StapeSDKTests/Pods-StapeSDK-StapeSDKTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TPTStapeSDK-TPTStapeSDKTests/Pods-TPTStapeSDK-TPTStapeSDKTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CwlCatchException/CwlCatchException.framework",
+				"${BUILT_PRODUCTS_DIR}/CwlCatchExceptionSupport/CwlCatchExceptionSupport.framework",
+				"${BUILT_PRODUCTS_DIR}/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.framework",
+				"${BUILT_PRODUCTS_DIR}/CwlPosixPreconditionTesting/CwlPosixPreconditionTesting.framework",
+				"${BUILT_PRODUCTS_DIR}/CwlPreconditionTesting/CwlPreconditionTesting.framework",
 				"${BUILT_PRODUCTS_DIR}/InstantMock/InstantMock.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CwlCatchException.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CwlCatchExceptionSupport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CwlMachBadInstructionHandler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CwlPosixPreconditionTesting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CwlPreconditionTesting.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstantMock.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StapeSDK-StapeSDKTests/Pods-StapeSDK-StapeSDKTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TPTStapeSDK-TPTStapeSDKTests/Pods-TPTStapeSDK-TPTStapeSDKTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1481A3263DAA675AABD10E20 /* [CP] Check Pods Manifest.lock */ = {
@@ -477,7 +495,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StapeSDK-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TPTStapeSDK-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -499,7 +517,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StapeSDK-StapeSDKTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TPTStapeSDK-TPTStapeSDKTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -679,7 +697,7 @@
 		};
 		D9F706632ADC0893006D7530 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC9D75E0ECD5B3CB232A87DD /* Pods-StapeSDK.debug.xcconfig */;
+			baseConfigurationReference = 5DE9068317B0B22626A12162 /* Pods-TPTStapeSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -729,7 +747,7 @@
 		};
 		D9F706642ADC0893006D7530 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA0F5ED820E67EA16B7646BB /* Pods-StapeSDK.release.xcconfig */;
+			baseConfigurationReference = B26CA7ED3DE71D1E7685660C /* Pods-TPTStapeSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -775,7 +793,7 @@
 		};
 		D9F706672ADC0893006D7530 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D15EB62C991318502DB4BC8 /* Pods-StapeSDK-StapeSDKTests.debug.xcconfig */;
+			baseConfigurationReference = 7E39C0AE546A746C2327146C /* Pods-TPTStapeSDK-TPTStapeSDKTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -811,7 +829,7 @@
 		};
 		D9F706682ADC0893006D7530 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 391D51F03365C34539640B41 /* Pods-StapeSDK-StapeSDKTests.release.xcconfig */;
+			baseConfigurationReference = AE69CAA562C6E819F3B400A6 /* Pods-TPTStapeSDK-TPTStapeSDKTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "D9F7064A2ADC0893006D7530"
                BuildableName = "TPTStapeSDK.framework"
                BlueprintName = "TPTStapeSDK"
-               ReferencedContainer = "container:TPTStapeSDK.xcodeproj">
+               ReferencedContainer = "container:StapeSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -57,7 +57,7 @@
             BlueprintIdentifier = "D9F7064A2ADC0893006D7530"
             BuildableName = "TPTStapeSDK.framework"
             BlueprintName = "TPTStapeSDK"
-            ReferencedContainer = "container:TPTStapeSDK.xcodeproj">
+            ReferencedContainer = "container:StapeSDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
